@@ -1,0 +1,326 @@
+@charset "UTF-8";
+
+header, article, footer {
+    width: 100%;
+    min-height: 100px;
+    overflow: hidden;
+}
+/* Header */
+.logo_header {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.logo_header img {
+    margin: 35px 0 0 0;
+}
+
+.gnb {
+    width: 1920px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    background: #292929;
+    overflow: hidden;
+}
+
+.gnb ul {
+    overflow: hidden;
+    width: 450px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.gnb ul li {
+    float: left;
+    margin: 26px 0 0 3%;
+    padding: 0;
+    width: 200px;
+    overflow: hidden;
+    height: 34px;
+    line-height: 20px;
+}
+
+.gnb a {
+    overflow: hidden;
+}
+
+.gnb p {
+    width: 76%;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.gnb img {
+    float: left;
+    width: 20px;
+    overflow: hidden;
+}
+/* Header */
+
+/* Article */
+.mainCon1, .mainCon2, .mainCon3, .mainCon4 {
+    margin: 0 auto;
+    width: 1920px;
+    overflow: hidden;
+}
+
+/* main Container 1 */
+.mainCon1 {
+    background: url("../images/sub/image01.png") no-repeat;
+    background-size: 1920px 700px;
+    height: 700px;
+}
+
+.mainCon1 .mainText {
+    width: 400px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 35px;
+    margin: 0 auto;
+    margin-top: 250px;
+    text-align: center;
+}
+/* main Container 1 */
+
+/* main Container 2 */
+.mainCon2 {
+    height: 950px;
+}
+
+.mainCon2 .sub_title {
+    width: 100%;
+    height: 160px;
+    margin: 50px 0 0 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mainCon2 .sub_image {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.mainCon2 .sub_image img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.mainCon2 .sub_description {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.mainCon2 .desc_1, .mainCon2 .desc_2 {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.desc_1 ul {
+    margin-top: 25%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.desc_1 li {
+    width: 50%;
+    height: 40px;
+    overflow: hidden;
+    float: left;
+    margin: 35px 0 0 0;
+}
+
+.desc_1 span {
+    font-size: 25px;
+    font-weight: bold;
+    width: 180px;
+}
+
+.desc_1 p {
+    font-size: 20px;
+}
+
+.desc_2 .desc_2_info {
+    width: 100%;
+    overflow: hidden;
+}
+
+.desc_2 ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+.desc_2 li {
+    width: 50%;
+    height: 50px;
+    overflow: hidden;
+    float: left;
+    margin: 15px 0 15px 0;
+}
+
+.desc_2 p {
+    text-align: justify;
+    width: 100%;
+}
+
+.mainCon2 .sub_title h2 {
+    font-size: 35px;
+    width: 200px;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-left: 3px solid #00739d;
+    letter-spacing: 5px;
+}
+
+.mainCon2 .sub_text {
+    width: 1400px;
+    height: 740px;
+    margin: 0 auto;
+}
+/* main Container 2 */
+
+/* main Container 3 */
+.mainCon3 {
+    background: url("../images/sub/image02.png") no-repeat;
+    background-size: 1920px 1024px;
+    height: 1024px;
+}
+
+.mainCon3 .sub_title {
+    width: 100%;
+    height: 160px;
+    margin: 50px 0 0 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mainCon3 .sub_title h2 {
+    font-size: 35px;
+    width: 300px;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-left: 3px solid #fff;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+#slider_2 {
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+#slider_2 .slick-list {
+    width: 1200px;
+    height: 600px;
+    margin: 50px 0 50px 0;
+    float: left;
+}
+
+#slider_2 .slick-prev {
+    float: left;
+    margin-top: 350px;
+    cursor: pointer;
+}
+
+#slider_2 .slick-next {
+    margin-top:350px;
+    cursor: pointer;
+}
+
+.slick-slide {
+    padding: 20px;
+}
+#slider_2 .slick-slide img{
+    width: 100%;
+}
+/* main Container 3 */
+
+/* main Container 4*/
+.mainCon4 {
+    background: #292929;
+    height: 1024px;
+}
+
+.mainCon4 .sub_title {
+    width: 100%;
+    height: 160px;
+    margin: 50px 0 0 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mainCon4 .sub_title h2 {
+    font-size: 35px;
+    width: 300px;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-left: 3px solid #fff;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+#slider_3 {
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+#slider_3 .slick-list {
+    width: 1200px;
+    height: 400px;
+    margin: 50px 0 50px 0;
+    float: left;
+}
+
+#slider_3 .slick-slide img{
+    width:100%;
+}
+#slider_3 .slick-prev {
+    float: left;
+    margin-top: 250px;
+    cursor: pointer;
+}
+
+#slider_3 .slick-next {
+    margin-top: 250px;
+    cursor: pointer;
+}
+/* main Container 4*/
+/* Article */
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 180px;
+    background: #F2F2F2;
+}
+
+.footer_text {
+    width: 1400px;
+    height: 180px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.footer_text p{
+    margin: 10px 0 0 0;
+}
+/* Footer */

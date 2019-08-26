@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+/*컨테이너 시작*/
+#container {
+    width: 100%;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/*서브 메인*/
+
+/* article 시작 */
+.main_banner {
+    width: 100%;
+    min-height: 500px;
+    background-image: url("../images/images/main-image.01.jpg");
+    background-repeat: no-repeat;
+}
+
+.main_banner .contents {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.main_banner .contents .main_text {
+    color: #fff;
+    width : 512px;
+    float: right;
+    background-color: #000;
+    background-color: rgba( 0, 0, 0, 0.5 );
+}
+
+.main_banner .contents .main_text .main_tit {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 50px 0 0 40px;
+}
+
+.main_banner .contents .main_text .sub_tit {
+    font-size: 25px;
+    font-weight: 250;
+    margin: 10px 0 0 40px;
+}
+
+.main_banner .contents .main_text .txt {
+    font-size: 15px;
+    font-weight: 200;
+    margin: 20px 0 50px 40px;
+    padding: 20px 0 0 0;
+}
+
+.contents_01, .contents_02 {
+    width: 100%;
+    background: #f8f8f8;
+}
+
+.contents_01 .inner_contents, .contents_02 .inner_contents {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 100px 0 50px 0;
+    text-align: center;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+.contents_01 .inner_contents .tit {
+    font-size: 30px;
+    font-weight: 500;
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.contents_01 .inner_contents .txt {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.contents_01 .inner_contents ul {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.contents_01 .inner_contents li {
+    float: left;
+    width: 33.33%;
+    margin: 15px 0 15px 0;
+}
+
+.sub_banner_01 {
+    width: 100%;
+    background-image: url(../images/images/serve-img.01.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.sub_banner_01 .contents {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.sub_banner_01 .contents .sub_text {
+    color: #fff;
+    width: 50%;
+    float: left;
+    margin-top: 200px;
+}
+
+.sub_banner_01 .contents .tit {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.sub_banner_01 .contents .txt {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.sub_banner_02 {
+    width: 100%;
+    background: url("../images/images/serve.02.jpg") no-repeat;
+    min-height: 760px;
+}
+
+.sub_banner_02 .contents {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.sub_banner_02 .contents .sub_text {
+    color: #fff;
+    width: 50%;
+    height: 460px;
+    float: right;
+    margin-top: 330px;
+    background-color: #172856;
+}
+
+.sub_banner_02 .contents .sub_text .tit {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 12% 0 0 7%;
+}
+
+.sub_banner_02 .contents .sub_text .txt {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 5% 0 0 7%;
+}
+
+.sub_banner_02 .contents .sub_text .sub_tit {
+    font-size: 22px;
+    font-weight: 450;
+    margin: 5% 0 0 7%;
+}
+
+.sub_banner_02 .contents .sub_text a {
+    float: right;
+    margin: 5% 7% 0 0;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 8px;
+}
+
+.contents_02 .inner_contents ul {
+    width: 100%;
+}
+
+.contents_02 .inner_contents li {
+    width: 100%;
+    margin: 80px 0 0 0;
+}
+
+.contents_02 .inner_contents li img {
+    display: inline-block;
+    box-shadow: 20px 20px rgba(211, 211, 209, .7);
+}
+
+.contents_02 .inner_contents img {
+    width: 75%;
+    height: 75%;
+}
+
+.contents_02 .inner_contents .info_01, .info_03 {
+    float: left;
+    z-index: 2;
+    background-color: #fff;
+    margin: 100px 0 0 200px;
+    text-align: left;
+}
+
+.contents_02 .inner_contents .info_02 {
+    float: right;
+    z-index: 2;
+    background-color: #fff;
+    margin: 100px 0 0 200px;
+    text-align: left;
+}
+
+.contents_02 .inner_contents .image_01, .image_03 {
+    float: right;
+    z-index: 1;
+}
+
+.contents_02 .inner_contents .image_02 {
+    float: left;
+    z-index: 1;
+}
+/* article 종료 */
